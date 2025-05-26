@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+    <!-- -------------------------------Header-------------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> 
+            <section class="home">
+                <h1>Hi, I'm <span class="highlight">Naman Chaudhary</span></h1>
+                <h2>I’m a <span class="typing"></span></h2>
+            </section>
+        </div>
+    </div>
+
+<!-- --------------------------About----------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me :</h1>
+                    <p>
+                        I'm a 2nd-year B.Tech Computer Science student at <strong>VIT Bhopal University</strong> with strong interest in web development, especially backend technologies. I'm passionate about building meaningful digital experiences and continuously expanding my knowledge.
+                    </p>
+                    <br>
+                    <p>
+                        I enjoy exploring how things work under the hood and am always eager to learn, adapt, and grow with evolving technologies.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development:</span><br>HTML, CSS, JavaScript</li>
+                            
+                            <li><span>Backend Development:</span><br>Node.JS, Express.JS, MySQL, MongoDB</li>
+                            
+                            <li><span>Other Languages:</span><br>C, C++, Python, Java Basics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship(May 2025 - June 2025):</span><br>Worked as Intern at Pinnacle labs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th Class(2020-2021):</span><br>From Ingraham Institute English School, Ghaziabad <br>Marks : 96.8%</li>
+                            
+                            <li><span>12th Class(2022-2023):</span><br>From  Ingraham Institute English School, Ghaziabad <br>Marks : 89%</li>
+                            
+                            <li><span>Btech in CSE(2024-Current):</span><br>From VIT Bhopal University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------Projects----------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Work:</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-2.png" alt="Spotify image">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>A basic music player web app inspired by Spotify, built using HTML and CSS.</p>
+                        <a href="https://naman1313.github.io/Spotify-Clone/" target="blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpg" alt="Weather app image">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>A basic weather app that shows current weather using HTML, CSS, and JavaScript</p>
+                        <a href="https://naman1313.github.io/Check_Weather/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" alt="ToDo app image">
+                    <div class="layer">
+                        <h3>ToDo App</h3>
+                        <p>A basic ToDo app that shows your pending tasks and you can add new tasks or delete existing tasks when completed using HTML, CSS, and JavaScript</p>
+                        <a href="https://naman1313.github.io/ToDo-App/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------Contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left-col">
+                    <h1 class="subtitle">Contact Me:</h1>
+                    <p><a href="mailto:namanvit2028@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>namanvit2028@gmail.com</p>
+                    <p><a href="#"><i class="fa-solid fa-phone"></i></a>8920726717</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/naman1313/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_naman_1313/?hl=en" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Naman1313" target="blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/+918920726717" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://t.me/naman_1313" target="blank"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" placeholder="Your Name" name="Name" required>
+                        <input type="text" placeholder="Your Email" name="Email" required>
+                        <textarea name="Message" placeholder="Your Message"></textarea>
+                        <button>Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Naman.  Made with <i class="fa-solid fa-heart"></i> by Naman</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
