@@ -232,6 +232,12 @@ li span{
     margin-top: 50px;
 }
 
+.works{
+    background-color: black;
+    padding:80px;
+    border-radius: 30px;
+}
+
 .work{
     border-radius: 10px;
     position: relative;
