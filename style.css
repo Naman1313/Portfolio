@@ -442,19 +442,19 @@ form input, form textarea{
     .home {
         align-items: center;
         text-align: center;
-        margin-top: -250px;
+        margin-top: -350px;
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size:2rem;
     }
 
     .glow-circle{
-        margin-top:-150px;
+        margin-top:-180px;
         margin-left:-30px;
     }
 
@@ -501,7 +501,7 @@ form input, form textarea{
     }
 
     .logo-name {
-        font-size: 24px;
+        font-size: 50px;
         margin: 20px 10px;
     }
 
