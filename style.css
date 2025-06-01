@@ -415,6 +415,116 @@ form input, form textarea{
     filter: blur(80px);
 }
 
+/* @media(max-width:450px){
+    .logo-name{
+        font-size: 30px;
+        margin-top:20px;
+    }
+    
+    nav ul li a{
+        display:none;
+    }
+
+    #header{
+        background-image:image-set();
+    }
+} */
+
+@media (max-width: 1144px) {
+    .container {
+        padding: 10px 5%;
+    }
+
+    #header{
+        background-image: url("images/mobile-back.png");
+    }
+
+    .home {
+        align-items: center;
+        text-align: center;
+        margin-top: -250px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .glow-circle{
+        margin-top:-150px;
+        margin-left:-30px;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .about-col-1 img {
+        width: 100%;
+        height: auto;
+        margin-bottom:50px;
+    }
+
+    .tab {
+        margin-top: 40px;
+    }
+
+    /* .tab-contents {
+        margin-left: 0;
+    } */
+
+    .works {
+        padding: 20px 10px;
+        margin-top: 1px;
+    }
+
+    .work-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .row .left-col, .row .right-col {
+        flex-basis: 100%;
+    }
+
+    form input, form textarea {
+        font-size: 1rem;
+    }
+
+    .logo-name {
+        font-size: 24px;
+        margin: 20px 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .social-icons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-icons a {
+        margin: 10px;
+    }
+
+    .subtitle{
+        font-size: 50px;;
+    }
+}
+
+
+
 
 
 
